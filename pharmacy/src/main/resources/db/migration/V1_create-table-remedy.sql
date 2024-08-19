@@ -1,0 +1,11 @@
+CREATE TABLE remedy (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    via VARCHAR(100) NOT NULL,
+    batch VARCHAR(100) NOT NULL,
+    quantity VARCHAR(100) NOT NULL,
+    validity VARCHAR(100) NOT NULL,
+    laboratory VARCHAR(100) NOT NULL,
+
+    PRIMARY KEY(id)
+);
